@@ -71,7 +71,7 @@ export const TotalList = ({ list, onCalculate, stake, setStake }) => {
             <div className={style.calculator_row_main_container_list_item_sec}>
                 <input 
                   type="text" 
-                  value={`${prices[item.id]}.00`}
+                  value={`${prices[item.price]}.00`}
                   onChange={handleListChange(item.id)}
                   className={style.calculator_row_main_container_list_item_sec_price} 
                 />
